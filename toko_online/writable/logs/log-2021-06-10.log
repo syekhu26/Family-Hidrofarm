@@ -1,0 +1,119 @@
+CRITICAL - 2021-06-10 02:30:45 --> syntax error, unexpected '==' (T_IS_EQUAL)
+#0 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout', Array, true)
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/index', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(20): view('barang/index', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->index()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 04:37:20 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(28): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\etalase->beli('1')
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 04:41:56 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(28): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\etalase->beli('1')
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 07:05:28 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:06:39 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:06:40 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:06:42 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:06:43 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:07:30 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:07:32 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 07:07:33 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 13:19:58 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(69): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\etalase->beli()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 13:51:47 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(69): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\etalase->beli()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 14:13:06 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(74): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 14:24:02 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\etalase\beli.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\etalase.php(74): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 14:30:43 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 14:31:34 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 14:31:36 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 14:31:37 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 14:33:23 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-10 14:33:54 --> Class 'App\Entities	ransaksi' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

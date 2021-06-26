@@ -1,0 +1,306 @@
+CRITICAL - 2021-06-09 01:58:48 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout', Array, true)
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\autentikasi.php(73): view('login')
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Autentikasi->login()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentikasi))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:35:49 --> Undefined property: App\Controllers\Barang::$valiadation
+#0 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 06:38:28 --> Undefined property: App\Controllers\Barang::$valiadation
+#0 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 06:43:07 --> Undefined property: App\Controllers\Barang::$valiadation
+#0 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 06:44:07 --> Undefined property: App\Controllers\Barang::$valiadation
+#0 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 07:16:43 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(57): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 07:20:41 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(57): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 07:22:05 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(57): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 07:23:08 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(57): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 08:57:45 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(102): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:04:20 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(102): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:07:45 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:07:49 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:08:21 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:47:45 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 09:58:24 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 10:01:13 --> Invalid file: barang/update.php
+#0 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/update.p...')
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#2 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#4 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 10:01:33 --> Invalid file: barang/update.php
+#0 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/update.p...')
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#2 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update('2')
+#4 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 10:02:37 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 10:05:37 --> unlink(C:\xampp\htdocs\toko_online\writable\debugbar/debugbar_1623246871.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1623251135, 20)
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\toko_online\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 10:17:04 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 10:17:06 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update('2')
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 10:17:15 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update('2')
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 13:37:26 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 13:42:36 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 14:00:02 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 15:25:32 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(106): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 15:36:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update('2')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 15:41:39 --> Undefined variable: id
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(107): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\barang->update('2')
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 22:58:08 --> Trying to get property 'nama' of non-object
+#0 C:\xampp\htdocs\toko_online\app\Views\barang\update.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('barang/update', Array, true)
+#4 C:\xampp\htdocs\toko_online\app\Controllers\barang.php(102): view('barang/update', Array)
+#5 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Barang->update()
+#6 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_online\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_online\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
